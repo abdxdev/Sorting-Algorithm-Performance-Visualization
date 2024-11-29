@@ -139,6 +139,10 @@ def main():
 
     st.markdown(
         f"""                
+# Sorting Algorithm Performance Visualization
+
+This application visualizes the performance of various sorting algorithms on different datasets. The data is collected from the results of the sorting algorithm benchmarking.
+
 ## Data Variation: {variation}
 
 The following data is in {selected_unit}.
