@@ -183,7 +183,7 @@ public:
 
 class Timer {
     chrono::time_point<chrono::high_resolution_clock> start, end;
-    chrono::duration<double, milli> elapsed;
+    chrono::duration<double, nano> elapsed;
 
     int dataset_size;
     string dataset_variation;
@@ -194,7 +194,7 @@ class Timer {
 public:
     Timer(int dataset_size, string dataset_variation, string sorting_algorithm, ofstream& file) : dataset_size(dataset_size), dataset_variation(dataset_variation), sorting_algorithm(sorting_algorithm), file(file) {
         start = chrono::high_resolution_clock::now();
-        elapsed = chrono::duration<double, milli>::zero();
+        elapsed = chrono::duration<double, nano>::zero();
     }
 
     ~Timer() {
@@ -275,8 +275,13 @@ int main() {
         {"Bubble Sort", SortingAlgorithms::IBubbleSort},
         {"Merge Sort", SortingAlgorithms::IMergeSort},
     };
+
+    string directory = "results";
+    if (!filesystem::exists(directory))
+        filesystem::create_directories(directory);
+
     ofstream file;
-    file.open("results.csv");
+    file.open(directory + "/result.csv");
     if (file.is_open()) {
         file << "Dataset Size,Dataset Variation,Sorting Algorithm,Time Taken" << endl;
     }

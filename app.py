@@ -3,6 +3,7 @@ import numpy as np
 import csv
 import plotly.graph_objects as go
 import pandas as pd
+import os
 
 
 def plot_data(variation, table_data, algo_arrangement, table_header, csv_file):
@@ -64,7 +65,11 @@ def calculate_averages(tables, variations, algos, table_header):
 
 
 def main():
-    csv_files = ["results.csv"]
+    csv_files = []
+    for file in os.listdir("results/"):
+        if file.endswith(".csv"):
+            csv_files.append(f"results/{file}")
+
     table_header = [1000, 2000, 3000, 4000, 5000, 10000, 20000, 40000, 80000, 160000, 250000, 500000]
     algos = ["Insertion Sort", "Quick Sort", "Heap Sort", "Selection Sort", "Bubble Sort", "Merge Sort"]
     variations = ["Many Duplicates", "Nearly Sorted", "Reversed", "Sorted", "Unique Entries", "Random"]
