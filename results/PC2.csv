@@ -1,4 +1,4 @@
-Dataset Size,Dataset Variation,Sorting Algorithm,Time Taken (ns)
+Dataset Size,Dataset Variation,Sorting Algorithm,Time Taken
 1000,Many Duplicates,Bubble Sort,3.2511e+06
 1000,Many Duplicates,Heap Sort,311000
 1000,Many Duplicates,Insertion Sort,7300
