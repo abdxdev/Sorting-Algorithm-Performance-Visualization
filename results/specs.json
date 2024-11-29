@@ -1,0 +1,12 @@
+{
+    "PC1": {
+        "model": "Dell Latitude 5400",
+        "cpu": "Intel Core i5-8600K",
+        "ram": "16GB DDR4"
+    },
+    "PC2": {
+        "model": "Dell Latitude E7250",
+        "cpu": "Intel Core i5-5600K",
+        "ram": "8GB DDR4"
+    }
+}
