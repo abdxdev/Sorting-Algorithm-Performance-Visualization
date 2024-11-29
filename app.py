@@ -75,6 +75,7 @@ def main():
 
     st.title("Sorting Algorithm Performance Visualization")
     st.sidebar.title("Options")
+    st.set_page_config(layout="wide")
 
     variation = st.sidebar.selectbox("Select Data Variation", variations)
 
