@@ -1,0 +1,433 @@
+Dataset Size,Dataset Variation,Sorting Algorithm,Time Taken
+1000,Many Duplicates,Bubble Sort,969800
+1000,Many Duplicates,Heap Sort,105800
+1000,Many Duplicates,Insertion Sort,215400
+1000,Many Duplicates,Merge Sort,350500
+1000,Many Duplicates,Quick Sort,677200
+1000,Many Duplicates,Selection Sort,1.2377e+06
+1000,Nearly Sorted,Bubble Sort,520400
+1000,Nearly Sorted,Heap Sort,92700
+1000,Nearly Sorted,Insertion Sort,59200
+1000,Nearly Sorted,Merge Sort,281400
+1000,Nearly Sorted,Quick Sort,436700
+1000,Nearly Sorted,Selection Sort,656900
+1000,Reversed,Bubble Sort,609700
+1000,Reversed,Heap Sort,91000
+1000,Reversed,Insertion Sort,289400
+1000,Reversed,Merge Sort,254200
+1000,Reversed,Quick Sort,482100
+1000,Reversed,Selection Sort,746600
+1000,Sorted,Bubble Sort,364300
+1000,Sorted,Heap Sort,526900
+1000,Sorted,Insertion Sort,900
+1000,Sorted,Merge Sort,280400
+1000,Sorted,Quick Sort,410200
+1000,Sorted,Selection Sort,526900
+1000,Unique Entries,Bubble Sort,686500
+1000,Unique Entries,Heap Sort,106100
+1000,Unique Entries,Insertion Sort,170400
+1000,Unique Entries,Merge Sort,267700
+1000,Unique Entries,Quick Sort,594300
+1000,Unique Entries,Selection Sort,549600
+1000,Random,Bubble Sort,938900
+1000,Random,Heap Sort,116800
+1000,Random,Insertion Sort,153800
+1000,Random,Merge Sort,344200
+1000,Random,Quick Sort,462300
+1000,Random,Selection Sort,657100
+2000,Many Duplicates,Bubble Sort,2.728e+06
+2000,Many Duplicates,Heap Sort,242300
+2000,Many Duplicates,Insertion Sort,553100
+2000,Many Duplicates,Merge Sort,496000
+2000,Many Duplicates,Quick Sort,2.7313e+06
+2000,Many Duplicates,Selection Sort,2.5576e+06
+2000,Nearly Sorted,Bubble Sort,1.9125e+06
+2000,Nearly Sorted,Heap Sort,191600
+2000,Nearly Sorted,Insertion Sort,357900
+2000,Nearly Sorted,Merge Sort,641900
+2000,Nearly Sorted,Quick Sort,2.4813e+06
+2000,Nearly Sorted,Selection Sort,2.6604e+06
+2000,Reversed,Bubble Sort,1.7427e+06
+2000,Reversed,Heap Sort,166900
+2000,Reversed,Insertion Sort,1.2597e+06
+2000,Reversed,Merge Sort,578000
+2000,Reversed,Quick Sort,1.4954e+06
+2000,Reversed,Selection Sort,2.1645e+06
+2000,Sorted,Bubble Sort,2.265e+06
+2000,Sorted,Heap Sort,376700
+2000,Sorted,Insertion Sort,1700
+2000,Sorted,Merge Sort,546800
+2000,Sorted,Quick Sort,1.6411e+06
+2000,Sorted,Selection Sort,4.5476e+06
+2000,Unique Entries,Bubble Sort,2.9035e+06
+2000,Unique Entries,Heap Sort,247600
+2000,Unique Entries,Insertion Sort,685300
+2000,Unique Entries,Merge Sort,514800
+2000,Unique Entries,Quick Sort,1.6354e+06
+2000,Unique Entries,Selection Sort,2.0295e+06
+2000,Random,Bubble Sort,3.402e+06
+2000,Random,Heap Sort,459200
+2000,Random,Insertion Sort,1.0245e+06
+2000,Random,Merge Sort,470700
+2000,Random,Quick Sort,1.5791e+06
+2000,Random,Selection Sort,2.0414e+06
+3000,Many Duplicates,Bubble Sort,7.9455e+06
+3000,Many Duplicates,Heap Sort,371500
+3000,Many Duplicates,Insertion Sort,2.2026e+06
+3000,Many Duplicates,Merge Sort,1.1244e+06
+3000,Many Duplicates,Quick Sort,3.5807e+06
+3000,Many Duplicates,Selection Sort,4.3627e+06
+3000,Nearly Sorted,Bubble Sort,4.8168e+06
+3000,Nearly Sorted,Heap Sort,221000
+3000,Nearly Sorted,Insertion Sort,369500
+3000,Nearly Sorted,Merge Sort,678000
+3000,Nearly Sorted,Quick Sort,3.1976e+06
+3000,Nearly Sorted,Selection Sort,4.3806e+06
+3000,Reversed,Bubble Sort,3.9609e+06
+3000,Reversed,Heap Sort,226000
+3000,Reversed,Insertion Sort,2.5097e+06
+3000,Reversed,Merge Sort,832400
+3000,Reversed,Quick Sort,3.6258e+06
+3000,Reversed,Selection Sort,3.8241e+06
+3000,Sorted,Bubble Sort,3.9218e+06
+3000,Sorted,Heap Sort,249600
+3000,Sorted,Insertion Sort,2300
+3000,Sorted,Merge Sort,478200
+3000,Sorted,Quick Sort,3.2189e+06
+3000,Sorted,Selection Sort,4.402e+06
+3000,Unique Entries,Bubble Sort,7.9755e+06
+3000,Unique Entries,Heap Sort,277300
+3000,Unique Entries,Insertion Sort,2.125e+06
+3000,Unique Entries,Merge Sort,677500
+3000,Unique Entries,Quick Sort,3.0883e+06
+3000,Unique Entries,Selection Sort,5.1048e+06
+3000,Random,Bubble Sort,6.4471e+06
+3000,Random,Heap Sort,265700
+3000,Random,Insertion Sort,1.4381e+06
+3000,Random,Merge Sort,657400
+3000,Random,Quick Sort,3.1911e+06
+3000,Random,Selection Sort,7.2991e+06
+4000,Many Duplicates,Bubble Sort,1.20257e+07
+4000,Many Duplicates,Heap Sort,417000
+4000,Many Duplicates,Insertion Sort,2.1624e+06
+4000,Many Duplicates,Merge Sort,1.4355e+06
+4000,Many Duplicates,Quick Sort,5.9366e+06
+4000,Many Duplicates,Selection Sort,9.2476e+06
+4000,Nearly Sorted,Bubble Sort,7.8586e+06
+4000,Nearly Sorted,Heap Sort,296700
+4000,Nearly Sorted,Insertion Sort,921700
+4000,Nearly Sorted,Merge Sort,784200
+4000,Nearly Sorted,Quick Sort,5.8773e+06
+4000,Nearly Sorted,Selection Sort,6.8091e+06
+4000,Reversed,Bubble Sort,5.5585e+06
+4000,Reversed,Heap Sort,257300
+4000,Reversed,Insertion Sort,4.7607e+06
+4000,Reversed,Merge Sort,702200
+4000,Reversed,Quick Sort,5.8815e+06
+4000,Reversed,Selection Sort,8.0506e+06
+4000,Sorted,Bubble Sort,5.1741e+06
+4000,Sorted,Heap Sort,256500
+4000,Sorted,Insertion Sort,3500
+4000,Sorted,Merge Sort,707700
+4000,Sorted,Quick Sort,6.5783e+06
+4000,Sorted,Selection Sort,7.952e+06
+4000,Unique Entries,Bubble Sort,1.25383e+07
+4000,Unique Entries,Heap Sort,322300
+4000,Unique Entries,Insertion Sort,2.2208e+06
+4000,Unique Entries,Merge Sort,837600
+4000,Unique Entries,Quick Sort,6.109e+06
+4000,Unique Entries,Selection Sort,8.28e+06
+4000,Random,Bubble Sort,1.13856e+07
+4000,Random,Heap Sort,494900
+4000,Random,Insertion Sort,2.6854e+06
+4000,Random,Merge Sort,851100
+4000,Random,Quick Sort,6.0169e+06
+4000,Random,Selection Sort,9.416e+06
+5000,Many Duplicates,Bubble Sort,1.98896e+07
+5000,Many Duplicates,Heap Sort,390200
+5000,Many Duplicates,Insertion Sort,3.4385e+06
+5000,Many Duplicates,Merge Sort,1.1215e+06
+5000,Many Duplicates,Quick Sort,9.4927e+06
+5000,Many Duplicates,Selection Sort,1.20824e+07
+5000,Nearly Sorted,Bubble Sort,1.25123e+07
+5000,Nearly Sorted,Heap Sort,346700
+5000,Nearly Sorted,Insertion Sort,894600
+5000,Nearly Sorted,Merge Sort,891000
+5000,Nearly Sorted,Quick Sort,1.03783e+07
+5000,Nearly Sorted,Selection Sort,1.16349e+07
+5000,Reversed,Bubble Sort,8.4754e+06
+5000,Reversed,Heap Sort,436500
+5000,Reversed,Insertion Sort,7.9577e+06
+5000,Reversed,Merge Sort,836200
+5000,Reversed,Quick Sort,1.22533e+07
+5000,Reversed,Selection Sort,1.69284e+07
+5000,Sorted,Bubble Sort,7.4439e+06
+5000,Sorted,Heap Sort,310000
+5000,Sorted,Insertion Sort,3900
+5000,Sorted,Merge Sort,814900
+5000,Sorted,Quick Sort,9.4879e+06
+5000,Sorted,Selection Sort,1.64163e+07
+5000,Unique Entries,Bubble Sort,1.88531e+07
+5000,Unique Entries,Heap Sort,488900
+5000,Unique Entries,Insertion Sort,4.7541e+06
+5000,Unique Entries,Merge Sort,1.0557e+06
+5000,Unique Entries,Quick Sort,8.095e+06
+5000,Unique Entries,Selection Sort,1.1754e+07
+5000,Random,Bubble Sort,2.07002e+07
+5000,Random,Heap Sort,440000
+5000,Random,Insertion Sort,3.3118e+06
+5000,Random,Merge Sort,1.1185e+06
+5000,Random,Quick Sort,8.4019e+06
+5000,Random,Selection Sort,1.06787e+07
+10000,Many Duplicates,Bubble Sort,1.04849e+08
+10000,Many Duplicates,Heap Sort,1.4093e+06
+10000,Many Duplicates,Insertion Sort,1.49075e+07
+10000,Many Duplicates,Merge Sort,2.0809e+06
+10000,Many Duplicates,Quick Sort,4.04036e+07
+10000,Many Duplicates,Selection Sort,5.27989e+07
+10000,Nearly Sorted,Bubble Sort,4.78701e+07
+10000,Nearly Sorted,Heap Sort,940100
+10000,Nearly Sorted,Insertion Sort,3.246e+06
+10000,Nearly Sorted,Merge Sort,3.0111e+06
+10000,Nearly Sorted,Quick Sort,3.31317e+07
+10000,Nearly Sorted,Selection Sort,4.6141e+07
+10000,Reversed,Bubble Sort,3.53872e+07
+10000,Reversed,Heap Sort,725500
+10000,Reversed,Insertion Sort,2.85337e+07
+10000,Reversed,Merge Sort,1.6846e+06
+10000,Reversed,Quick Sort,3.62478e+07
+10000,Reversed,Selection Sort,4.51113e+07
+10000,Sorted,Bubble Sort,3.65741e+07
+10000,Sorted,Heap Sort,810700
+10000,Sorted,Insertion Sort,8000
+10000,Sorted,Merge Sort,1.6275e+06
+10000,Sorted,Quick Sort,4.08804e+07
+10000,Sorted,Selection Sort,4.93067e+07
+10000,Unique Entries,Bubble Sort,1.03814e+08
+10000,Unique Entries,Heap Sort,1.1403e+06
+10000,Unique Entries,Insertion Sort,1.64724e+07
+10000,Unique Entries,Merge Sort,2.2332e+06
+10000,Unique Entries,Quick Sort,3.87132e+07
+10000,Unique Entries,Selection Sort,5.29378e+07
+10000,Random,Bubble Sort,1.06259e+08
+10000,Random,Heap Sort,1.4499e+06
+10000,Random,Insertion Sort,1.70147e+07
+10000,Random,Merge Sort,2.1345e+06
+10000,Random,Quick Sort,3.61888e+07
+10000,Random,Selection Sort,5.01049e+07
+20000,Many Duplicates,Bubble Sort,4.81956e+08
+20000,Many Duplicates,Heap Sort,3.1767e+06
+20000,Many Duplicates,Insertion Sort,6.57217e+07
+20000,Many Duplicates,Merge Sort,5.1218e+06
+20000,Many Duplicates,Quick Sort,1.95034e+08
+20000,Many Duplicates,Selection Sort,2.15217e+08
+20000,Nearly Sorted,Bubble Sort,2.07234e+08
+20000,Nearly Sorted,Heap Sort,2.3702e+06
+20000,Nearly Sorted,Insertion Sort,1.75334e+07
+20000,Nearly Sorted,Merge Sort,4.1208e+06
+20000,Nearly Sorted,Quick Sort,1.55337e+08
+20000,Nearly Sorted,Selection Sort,2.46166e+08
+20000,Reversed,Bubble Sort,1.59614e+08
+20000,Reversed,Heap Sort,1.4378e+06
+20000,Reversed,Insertion Sort,1.29017e+08
+20000,Reversed,Merge Sort,3.308e+06
+20000,Reversed,Quick Sort,1.74793e+08
+20000,Reversed,Selection Sort,2.57819e+08
+20000,Sorted,Bubble Sort,1.54157e+08
+20000,Sorted,Heap Sort,1.6628e+06
+20000,Sorted,Insertion Sort,17400
+20000,Sorted,Merge Sort,3.8862e+06
+20000,Sorted,Quick Sort,1.84277e+08
+20000,Sorted,Selection Sort,2.12928e+08
+20000,Unique Entries,Bubble Sort,4.75165e+08
+20000,Unique Entries,Heap Sort,2.4487e+06
+20000,Unique Entries,Insertion Sort,6.61616e+07
+20000,Unique Entries,Merge Sort,4.3112e+06
+20000,Unique Entries,Quick Sort,1.55057e+08
+20000,Unique Entries,Selection Sort,2.07406e+08
+20000,Random,Bubble Sort,5.18412e+08
+20000,Random,Heap Sort,2.6455e+06
+20000,Random,Insertion Sort,7.2424e+07
+20000,Random,Merge Sort,4.3359e+06
+20000,Random,Quick Sort,1.80141e+08
+20000,Random,Selection Sort,2.151e+08
+40000,Many Duplicates,Bubble Sort,2.02522e+09
+40000,Many Duplicates,Heap Sort,5.8641e+06
+40000,Many Duplicates,Insertion Sort,2.65068e+08
+40000,Many Duplicates,Merge Sort,1.05819e+07
+40000,Many Duplicates,Quick Sort,6.02837e+08
+40000,Many Duplicates,Selection Sort,7.5555e+08
+40000,Nearly Sorted,Bubble Sort,8.92612e+08
+40000,Nearly Sorted,Heap Sort,3.8169e+06
+40000,Nearly Sorted,Insertion Sort,6.0733e+07
+40000,Nearly Sorted,Merge Sort,9.4133e+06
+40000,Nearly Sorted,Quick Sort,6.01739e+08
+40000,Nearly Sorted,Selection Sort,7.77863e+08
+40000,Reversed,Bubble Sort,5.57962e+08
+40000,Reversed,Heap Sort,3.1378e+06
+40000,Reversed,Insertion Sort,5.08423e+08
+40000,Reversed,Merge Sort,6.674e+06
+40000,Reversed,Quick Sort,6.17081e+08
+40000,Reversed,Selection Sort,8.34792e+08
+40000,Sorted,Bubble Sort,5.47095e+08
+40000,Sorted,Heap Sort,2.9485e+06
+40000,Sorted,Insertion Sort,37100
+40000,Sorted,Merge Sort,7.5427e+06
+40000,Sorted,Quick Sort,6.54168e+08
+40000,Sorted,Selection Sort,7.84903e+08
+40000,Unique Entries,Bubble Sort,2.06176e+09
+40000,Unique Entries,Heap Sort,4.7166e+06
+40000,Unique Entries,Insertion Sort,2.28075e+08
+40000,Unique Entries,Merge Sort,9.1616e+06
+40000,Unique Entries,Quick Sort,6.7363e+08
+40000,Unique Entries,Selection Sort,7.66401e+08
+40000,Random,Bubble Sort,2.02362e+09
+40000,Random,Heap Sort,5.1362e+06
+40000,Random,Insertion Sort,2.39939e+08
+40000,Random,Merge Sort,8.9429e+06
+40000,Random,Quick Sort,6.59558e+08
+40000,Random,Selection Sort,7.94802e+08
+80000,Many Duplicates,Bubble Sort,8.49208e+09
+80000,Many Duplicates,Heap Sort,1.09912e+07
+80000,Many Duplicates,Insertion Sort,1.05331e+09
+80000,Many Duplicates,Merge Sort,1.99299e+07
+80000,Many Duplicates,Quick Sort,2.46882e+09
+80000,Many Duplicates,Selection Sort,3.0669e+09
+80000,Nearly Sorted,Bubble Sort,3.59981e+09
+80000,Nearly Sorted,Heap Sort,8.0436e+06
+80000,Nearly Sorted,Insertion Sort,2.74026e+08
+80000,Nearly Sorted,Merge Sort,1.71972e+07
+80000,Nearly Sorted,Quick Sort,2.45686e+09
+80000,Nearly Sorted,Selection Sort,3.12877e+09
+80000,Reversed,Bubble Sort,2.13227e+09
+80000,Reversed,Heap Sort,7.1201e+06
+80000,Reversed,Insertion Sort,1.99986e+09
+80000,Reversed,Merge Sort,1.64312e+07
+80000,Reversed,Quick Sort,2.46506e+09
+80000,Reversed,Selection Sort,3.09145e+09
+80000,Sorted,Bubble Sort,2.01764e+09
+80000,Sorted,Heap Sort,8.1839e+06
+80000,Sorted,Insertion Sort,73500
+80000,Sorted,Merge Sort,1.38537e+07
+80000,Sorted,Quick Sort,2.50101e+09
+80000,Sorted,Selection Sort,3.00844e+09
+80000,Unique Entries,Bubble Sort,8.23095e+09
+80000,Unique Entries,Heap Sort,1.02296e+07
+80000,Unique Entries,Insertion Sort,9.79205e+08
+80000,Unique Entries,Merge Sort,2.10764e+07
+80000,Unique Entries,Quick Sort,2.51037e+09
+80000,Unique Entries,Selection Sort,3.02762e+09
+80000,Random,Bubble Sort,8.41066e+09
+80000,Random,Heap Sort,9.9301e+06
+80000,Random,Insertion Sort,9.64826e+08
+80000,Random,Merge Sort,2.40625e+07
+80000,Random,Quick Sort,2.51872e+09
+80000,Random,Selection Sort,3.09382e+09
+160000,Many Duplicates,Bubble Sort,3.35574e+10
+160000,Many Duplicates,Heap Sort,2.09632e+07
+160000,Many Duplicates,Insertion Sort,3.80253e+09
+160000,Many Duplicates,Merge Sort,3.9794e+07
+160000,Many Duplicates,Quick Sort,1.02081e+10
+160000,Many Duplicates,Selection Sort,1.23752e+10
+160000,Nearly Sorted,Bubble Sort,1.4647e+10
+160000,Nearly Sorted,Heap Sort,1.66096e+07
+160000,Nearly Sorted,Insertion Sort,9.16444e+08
+160000,Nearly Sorted,Merge Sort,3.71795e+07
+160000,Nearly Sorted,Quick Sort,1.01323e+10
+160000,Nearly Sorted,Selection Sort,1.26506e+10
+160000,Reversed,Bubble Sort,8.9461e+09
+160000,Reversed,Heap Sort,1.36776e+07
+160000,Reversed,Insertion Sort,8.0279e+09
+160000,Reversed,Merge Sort,4.34506e+07
+160000,Reversed,Quick Sort,1.0105e+10
+160000,Reversed,Selection Sort,1.25671e+10
+160000,Sorted,Bubble Sort,8.0346e+09
+160000,Sorted,Heap Sort,1.16226e+07
+160000,Sorted,Insertion Sort,132600
+160000,Sorted,Merge Sort,2.93036e+07
+160000,Sorted,Quick Sort,9.98689e+09
+160000,Sorted,Selection Sort,1.59281e+10
+160000,Unique Entries,Bubble Sort,4.20694e+10
+160000,Unique Entries,Heap Sort,2.02207e+07
+160000,Unique Entries,Insertion Sort,5.77144e+09
+160000,Unique Entries,Merge Sort,4.23213e+07
+160000,Unique Entries,Quick Sort,1.16862e+10
+160000,Unique Entries,Selection Sort,1.81984e+10
+160000,Random,Bubble Sort,4.34125e+10
+160000,Random,Heap Sort,2.0999e+07
+160000,Random,Insertion Sort,5.56857e+09
+160000,Random,Merge Sort,4.32703e+07
+160000,Random,Quick Sort,1.44671e+10
+160000,Random,Selection Sort,1.90034e+10
+250000,Many Duplicates,Bubble Sort,1.03574e+11
+250000,Many Duplicates,Heap Sort,3.59695e+07
+250000,Many Duplicates,Insertion Sort,1.16446e+10
+250000,Many Duplicates,Merge Sort,7.32064e+07
+250000,Many Duplicates,Quick Sort,3.0534e+10
+250000,Many Duplicates,Selection Sort,3.81628e+10
+250000,Nearly Sorted,Bubble Sort,4.08807e+10
+250000,Nearly Sorted,Heap Sort,2.62351e+07
+250000,Nearly Sorted,Insertion Sort,2.36505e+09
+250000,Nearly Sorted,Merge Sort,5.66099e+07
+250000,Nearly Sorted,Quick Sort,2.85295e+10
+250000,Nearly Sorted,Selection Sort,3.84975e+10
+250000,Reversed,Bubble Sort,2.60947e+10
+250000,Reversed,Heap Sort,1.953e+07
+250000,Reversed,Insertion Sort,1.92935e+10
+250000,Reversed,Merge Sort,5.12936e+07
+250000,Reversed,Quick Sort,2.29315e+10
+250000,Reversed,Selection Sort,2.82914e+10
+250000,Sorted,Bubble Sort,1.88354e+10
+250000,Sorted,Heap Sort,2.07876e+07
+250000,Sorted,Insertion Sort,212100
+250000,Sorted,Merge Sort,4.88172e+07
+250000,Sorted,Quick Sort,2.25039e+10
+250000,Sorted,Selection Sort,2.80199e+10
+250000,Unique Entries,Bubble Sort,7.90736e+10
+250000,Unique Entries,Heap Sort,3.47067e+07
+250000,Unique Entries,Insertion Sort,9.79579e+09
+250000,Unique Entries,Merge Sort,6.93753e+07
+250000,Unique Entries,Quick Sort,3.07906e+10
+250000,Unique Entries,Selection Sort,4.19808e+10
+250000,Random,Bubble Sort,7.59461e+10
+250000,Random,Heap Sort,3.80283e+07
+250000,Random,Insertion Sort,9.84566e+09
+250000,Random,Merge Sort,7.32111e+07
+250000,Random,Quick Sort,2.27477e+10
+250000,Random,Selection Sort,2.84706e+10
+500000,Many Duplicates,Bubble Sort,2.95322e+11
+500000,Many Duplicates,Heap Sort,7.90027e+07
+500000,Many Duplicates,Insertion Sort,3.79251e+10
+500000,Many Duplicates,Merge Sort,1.38043e+08
+500000,Many Duplicates,Quick Sort,9.02345e+10
+500000,Many Duplicates,Selection Sort,1.12e+11
+500000,Nearly Sorted,Bubble Sort,1.26883e+11
+500000,Nearly Sorted,Heap Sort,7.01226e+07
+500000,Nearly Sorted,Insertion Sort,9.01737e+09
+500000,Nearly Sorted,Merge Sort,1.15206e+08
+500000,Nearly Sorted,Quick Sort,8.99385e+10
+500000,Nearly Sorted,Selection Sort,1.1486e+11
+500000,Reversed,Bubble Sort,8.9233e+10
+500000,Reversed,Heap Sort,4.73478e+07
+500000,Reversed,Insertion Sort,7.50562e+10
+500000,Reversed,Merge Sort,1.06188e+08
+500000,Reversed,Quick Sort,8.84016e+10
+500000,Reversed,Selection Sort,1.11806e+11
+500000,Sorted,Bubble Sort,7.41852e+10
+500000,Sorted,Heap Sort,4.1532e+07
+500000,Sorted,Insertion Sort,407200
+500000,Sorted,Merge Sort,1.04442e+08
+500000,Sorted,Quick Sort,9.66295e+10
+500000,Sorted,Selection Sort,1.09856e+11
+500000,Unique Entries,Bubble Sort,2.94538e+11
+500000,Unique Entries,Heap Sort,8.7212e+07
+500000,Unique Entries,Insertion Sort,3.89353e+10
+500000,Unique Entries,Merge Sort,1.65441e+08
+500000,Unique Entries,Quick Sort,8.94216e+10
+500000,Unique Entries,Selection Sort,1.18972e+11
+500000,Random,Bubble Sort,2.9314e+11
+500000,Random,Heap Sort,8.50131e+07
+500000,Random,Insertion Sort,3.81243e+10
+500000,Random,Merge Sort,1.48646e+08
+500000,Random,Quick Sort,8.89317e+10
+500000,Random,Selection Sort,1.1046e+11
