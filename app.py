@@ -79,6 +79,7 @@ def main():
     variations = ["Many Duplicates", "Nearly Sorted", "Reversed", "Sorted", "Unique Entries", "Random"]
     time_units = {"NanoSecond (ns)": 1, "Microsecond (μs)": 1_000, "Millisecond (ms)": 1_000_000, "Second (s)": 1_000_000_000, "Minute (m)": 60_000_000_000, "Hour (h)": 3_600_000_000_000}
 
+    csv_files.sort()
     tables = read_data_from_csv(csv_files, variations, algos, table_header)
     avg_tables = calculate_averages(tables, variations, algos, table_header)
 
@@ -86,19 +87,6 @@ def main():
     variation = st.sidebar.selectbox("Select Data Variation", variations)
     selected_unit = st.sidebar.selectbox("Select Time Unit", list(time_units.keys()))
     time_conversion = time_units[selected_unit]
-
-    # {
-    #     "PC1": {
-    #         "model": "Dell Latitude 5400",
-    #         "cpu": "Intel Core i5-8600K",
-    #         "ram": "16GB DDR4"
-    #     },
-    #     "PC2": {
-    #         "model": "Dell Latitude E7250",
-    #         "cpu": "Intel Core i5-5600K",
-    #         "ram": "8GB DDR4"
-    #     }
-    # }
 
     specifications = ""
 
@@ -114,13 +102,16 @@ def main():
 
 This application visualizes the performance of various sorting algorithms on different datasets. The data is collected from the results of the sorting algorithm benchmarking.
 
-## Data Variation: {variation}
+#### Data Information 
 
-The following data is in {selected_unit}.
+- Data Variation: {variation}
+- Time Units: {selected_unit}.
 
 #### System Specifications
+
 {specifications}
 
+---
 """
     )
 
