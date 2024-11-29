@@ -77,7 +77,7 @@ def main():
     table_header = [1000, 2000, 3000, 4000, 5000, 10000, 20000, 40000, 80000, 160000, 250000, 500000]
     algos = ["Bubble Sort", "Selection Sort", "Quick Sort", "Insertion Sort", "Merge Sort", "Heap Sort"]
     variations = ["Many Duplicates", "Nearly Sorted", "Reversed", "Sorted", "Unique Entries", "Random"]
-    time_units = {"NanoSecond (ns)": 1, "Microsecond (μs)": 1_000, "Millisecond (ms)": 1_000_000, "Second (s)": 1_000_000_000, "Minute (m)": 60_000_000_000, "Hour (h)": 3_600_000_000_000}
+    time_units = {"Nanosecond (ns)": 1, "Microsecond (μs)": 1_000, "Millisecond (ms)": 1_000_000, "Second (s)": 1_000_000_000, "Minute (m)": 60_000_000_000, "Hour (h)": 3_600_000_000_000}
 
     csv_files.sort()
     tables = read_data_from_csv(csv_files, variations, algos, table_header)
@@ -97,8 +97,7 @@ def main():
         specifications += "\n"
 
     st.markdown(
-        f"""                
-# Sorting Algorithm Performance Visualization
+        f"""# Sorting Algorithm Performance Visualization
 
 This application visualizes the performance of various sorting algorithms on different datasets. The data is collected from the results of the sorting algorithm benchmarking.
 
@@ -111,8 +110,7 @@ This application visualizes the performance of various sorting algorithms on dif
 
 {specifications}
 
----
-"""
+---"""
     )
 
     for csv_file in csv_files:
