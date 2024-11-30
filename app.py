@@ -11,7 +11,6 @@ def plot_data(variation, table_data, algo_arrangement, table_header, csv_file, s
     fig = go.Figure()
     x = np.array(table_header)
 
-    # Convert data to selected unit
     table_data_converted = table_data / time_conversion
 
     for algo_index, algo in enumerate(algo_arrangement):

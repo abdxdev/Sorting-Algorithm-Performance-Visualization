@@ -201,7 +201,7 @@ public:
         end = chrono::high_resolution_clock::now();
         elapsed = end - start;
         file << dataset_size << "," << dataset_variation << "," << sorting_algorithm << "," << elapsed.count() << endl;
-        cout << dataset_size << " " << dataset_variation << " " << sorting_algorithm << " " << elapsed.count() << " ms" << endl;
+        cout << dataset_size << " " << dataset_variation << " " << sorting_algorithm << " " << elapsed.count() << " ns" << endl;
     }
 };
 

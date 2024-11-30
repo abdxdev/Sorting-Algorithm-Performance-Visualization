@@ -12,40 +12,34 @@ def generate_datasets(n, output_dir="datasets"):
     """
     os.makedirs(output_dir, exist_ok=True)
 
-    # Nearly sorted data
     print("Nearly sorted data")
     nearly_sorted = list(range(1, n + 1))
-    for _ in range(n // 10):  # Swap 10% of the elements to make it nearly sorted
+    for _ in range(n // 10):
         i, j = random.sample(range(n), 2)
         nearly_sorted[i], nearly_sorted[j] = nearly_sorted[j], nearly_sorted[i]
     with open(os.path.join(output_dir, "Nearly Sorted.txt"), "w") as f:
         f.write("\n".join(map(str, nearly_sorted)))
 
-    # Sorted data
     print("Sorted data")
     sorted_data = list(range(1, n + 1))
     with open(os.path.join(output_dir, "Sorted.txt"), "w") as f:
         f.write("\n".join(map(str, sorted_data)))
 
-    # Reversed data
     print("Reversed data")
     reversed_data = list(range(n, 0, -1))
     with open(os.path.join(output_dir, "Reversed.txt"), "w") as f:
         f.write("\n".join(map(str, reversed_data)))
 
-    # Data with many duplicates
     print("Data with many duplicates")
     duplicates = [random.randint(1, n // 10) for _ in range(n)]
     with open(os.path.join(output_dir, "Many Duplicates.txt"), "w") as f:
         f.write("\n".join(map(str, duplicates)))
 
-    # Data with unique entries
     print("Data with unique entries")
     unique_entries = random.sample(range(1, n * 10), n)
     with open(os.path.join(output_dir, "Unique Entries.txt"), "w") as f:
         f.write("\n".join(map(str, unique_entries)))
 
-    # Random data
     print("Random data")
     random_data = [random.randint(1, n * 10) for _ in range(n)]
     with open(os.path.join(output_dir, "Random.txt"), "w") as f:
