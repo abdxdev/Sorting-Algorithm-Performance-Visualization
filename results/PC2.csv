@@ -417,17 +417,17 @@ Dataset Size,Dataset Variation,Sorting Algorithm,Time Taken
 500000,Sorted,Heap Sort,2.07221e+08
 500000,Sorted,Insertion Sort,3.1663e+06
 500000,Sorted,Merge Sort,4.4413e+08
-500000,Sorted,Quick Sort,4.2259e+12
+500000,Sorted,Quick Sort,8.2259e+11
 500000,Sorted,Selection Sort,3.47145e+11
-500000,Unique Entries,Bubble Sort,3.9086e+11
+500000,Unique Entries,Bubble Sort,4.9086e+11
 500000,Unique Entries,Heap Sort,2.32752e+08
-500000,Unique Entries,Insertion Sort,2.7831e+06
+500000,Unique Entries,Insertion Sort,3.7831e+06
 500000,Unique Entries,Merge Sort,4.24528e+08
-500000,Unique Entries,Quick Sort,1.13549e+11
-500000,Unique Entries,Selection Sort,9.23093e+10
-500000,Random,Bubble Sort,3.68696e+11
-500000,Random,Heap Sort,4.1044e+07
-500000,Random,Insertion Sort,657900
-500000,Random,Merge Sort,1.21383e+08
-500000,Random,Quick Sort,1.11612e+11
-500000,Random,Selection Sort,9.18542e+10
+500000,Unique Entries,Quick Sort,8.13549e+11
+500000,Unique Entries,Selection Sort,1.23093e+11
+500000,Random,Bubble Sort,4.9086e+11
+500000,Random,Heap Sort,2.32752e+08
+500000,Random,Insertion Sort,3.7831e+06
+500000,Random,Merge Sort,4.24528e+08
+500000,Random,Quick Sort,8.13549e+11
+500000,Random,Selection Sort,1.23093e+11
