@@ -2,3 +2,6 @@
 .vscode
 datasets
 temp*
+*.zip
+*.docx
+*.pdf

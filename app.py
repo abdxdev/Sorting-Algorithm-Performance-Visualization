@@ -107,16 +107,19 @@ def main():
 
 This application visualizes the performance of various sorting algorithms on different datasets. The data is collected from the results of the sorting algorithm benchmarking.
 
+#### System Specifications
+
+{specifications}
+
+---
+
 #### Data Information 
 
 - Data Variation: {variation}
 - Time Units: {selected_unit}.
 
-#### System Specifications
-
-{specifications}
-
----"""
+---
+"""
     )
 
     for csv_file in csv_files:
