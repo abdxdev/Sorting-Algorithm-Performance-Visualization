@@ -2,6 +2,8 @@
 
 This Streamlit app visualizes the performance of various sorting algorithms across different input sizes and dataset variations. It reads data from multiple CSV files, displays the results in an interactive table, and provides plots to compare sorting algorithm performance.
 
+![](screenshots/screenshot_1.png)
+
 ## Workflow Overview
 
 1. **Generate Datasets**: Use the `generate_datasets.py` script to generate datasets with various variations.
